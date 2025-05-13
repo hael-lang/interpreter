@@ -2,8 +2,9 @@ package lexer
 
 import (
 	"fmt"
-	"hael/token"
 	"testing"
+
+	"github.com/hael-lang/interpreter/token"
 )
 
 func TestNextToken(t *testing.T) {

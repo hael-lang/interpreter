@@ -1,8 +1,9 @@
 package ast
 
 import (
-	"hael/token"
 	"testing"
+
+	"github.com/hael-lang/interpreter/token"
 )
 
 func TestString(t *testing.T) {

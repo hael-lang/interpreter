@@ -2,9 +2,10 @@ package parser
 
 import (
 	"fmt"
-	"hael/ast"
-	"hael/lexer"
 	"testing"
+
+	"github.com/hael-lang/interpreter/ast"
+	"github.com/hael-lang/interpreter/lexer"
 )
 
 func TestLetStatements(t *testing.T) {

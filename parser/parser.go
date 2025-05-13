@@ -2,10 +2,11 @@ package parser
 
 import (
 	"fmt"
-	"hael/ast"
-	"hael/lexer"
-	"hael/token"
 	"strconv"
+
+	"github.com/hael-lang/interpreter/ast"
+	"github.com/hael-lang/interpreter/lexer"
+	"github.com/hael-lang/interpreter/token"
 )
 
 const (

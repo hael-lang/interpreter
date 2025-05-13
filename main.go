@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"hael/repl"
 	"os"
 	"os/user"
+
+	"github.com/hael-lang/interpreter/repl"
 )
 
 func main() {

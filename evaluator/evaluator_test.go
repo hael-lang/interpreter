@@ -1,10 +1,11 @@
 package evaluator
 
 import (
-	"hael/lexer"
-	"hael/object"
-	"hael/parser"
 	"testing"
+
+	"github.com/hael-lang/interpreter/lexer"
+	"github.com/hael-lang/interpreter/object"
+	"github.com/hael-lang/interpreter/parser"
 )
 
 func TestEvalIntegerExpression(t *testing.T) {

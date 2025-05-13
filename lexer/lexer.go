@@ -1,7 +1,7 @@
 package lexer
 
 import (
-	"hael/token"
+	"github.com/hael-lang/interpreter/token"
 )
 
 type Lexer struct {

@@ -2,8 +2,9 @@ package ast
 
 import (
 	"bytes"
-	"hael/token"
 	"strings"
+
+	"github.com/hael-lang/interpreter/token"
 )
 
 type Node interface {

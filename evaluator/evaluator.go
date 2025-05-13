@@ -2,8 +2,9 @@ package evaluator
 
 import (
 	"fmt"
-	"hael/ast"
-	"hael/object"
+
+	"github.com/hael-lang/interpreter/ast"
+	"github.com/hael-lang/interpreter/object"
 )
 
 var (

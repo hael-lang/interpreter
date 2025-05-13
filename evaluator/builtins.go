@@ -2,10 +2,11 @@ package evaluator
 
 import (
 	"fmt"
-	"hael/object"
 	"net/http"
 	"os"
 	"path/filepath"
+
+	"github.com/hael-lang/interpreter/object"
 )
 
 var Builtins map[string]*object.Builtin

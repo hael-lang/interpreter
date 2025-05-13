@@ -3,9 +3,10 @@ package object
 import (
 	"bytes"
 	"fmt"
-	"hael/ast"
 	"hash/fnv"
 	"strings"
+
+	"github.com/hael-lang/interpreter/ast"
 )
 
 type ObjectType string

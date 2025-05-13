@@ -3,11 +3,12 @@ package repl
 import (
 	"bufio"
 	"fmt"
-	"hael/evaluator"
-	"hael/lexer"
-	"hael/object"
-	"hael/parser"
 	"io"
+
+	"github.com/hael-lang/interpreter/evaluator"
+	"github.com/hael-lang/interpreter/lexer"
+	"github.com/hael-lang/interpreter/object"
+	"github.com/hael-lang/interpreter/parser"
 )
 
 const PROMPT = ">> "
