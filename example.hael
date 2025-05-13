@@ -1,0 +1,7 @@
+$hello = "Hello, World!"
+
+$printHello ==> () {
+    print(hello)
+}
+
+printHello();
